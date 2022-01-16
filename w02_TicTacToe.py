@@ -71,12 +71,5 @@ def create_interface_grid (interface_data_list):
     for i in range (6, 9):
         print (interface_data_list[i], end="|")
 
-def find_winner (modified_spaces):
-    winner_x = ["X", "X", "X"]
-    winner_o = ["O", "O", "O"]
-    
-    
-
-
 if __name__ == "__main__":
     main()
